@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    border: 1px solid black;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+
+
+
+.container{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+.header{
+    width: 1200px;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+
+.main-menu{
+    width: 600px;
+    height: 100px;
+    
+    display: flex;
+    align-items: end;
+}
+.main-menu>li{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+.main-menu>li:hover{
+    background-color: pink;
+}
+
+
+.sub-menu{
+     display: none; 
+ /*/이렇게 해 두면 그냥 나오게 됨*/
+}
+.sub-menu li:hover{
+    background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+.slide{
+    width: 1200px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contents{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+}
+
+
+.notice{
+    width: 400px;
+    height: 200px;
+}
+.notice button{
+    width: 80px;
+    height: 30px;
+
+    background-color: pink;
+}
+.news{
+    width: 400px;
+    height: 170px;
+}
+.gallery{
+    width: 400px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /*display:none을 넣으면 flex가 적용되지 않음*/
+}
+.gallery img{
+    width: 130px;
+    height: 130px;
+}
+
+.banner{
+    width: 400px;
+    height: 200px;
+}
+.shortcut{
+    width: 400px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 1200px;
+    height: 100px;
+}
+
+
+
+
+
+
+.modal{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    
+    display: none;
+}
